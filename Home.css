@@ -1,0 +1,44 @@
+.HomeHeader{
+    background-image: url('./Header.jpg');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+}
+.HomeHeaderH1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.HomeHeaderContent{
+    height: 100vh;
+}
+.HomeHeaderBtn{
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: center;
+    justify-content: center; */
+}
+/* .HomeHeaderBtn>button{
+    width: 200px;
+}
+.HomeHeaderBtn>a{
+    width: 200px;
+} */
+@media screen and (max-width: 992px) {
+    .HomeHeaderH1{
+        font-size: 50px;
+    }
+    .HomeHeaderContent{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .HomeHeaderH1{
+        font-size: 40px;
+    }
+    .HomeHeaderContent{
+        height: 80vh;
+    }
+}
