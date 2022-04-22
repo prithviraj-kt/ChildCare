@@ -1,7 +1,9 @@
 .HomeHeader{
-    background-image: url('./Header.jpg');
+    background-image: url('./Background.png');
+    background-size: 100%;
     background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /* background-position: center; */
+
 }
 .HomeHeaderH1{
     font-size: 100px;
@@ -26,6 +28,7 @@
     .HomeHeaderImgH1{
         font-size: 40px;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
