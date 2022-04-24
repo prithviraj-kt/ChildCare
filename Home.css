@@ -5,7 +5,7 @@
 
 }
 .HomeHeaderH1{
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 500;
 }
 .HomeHeaderContent{
@@ -47,14 +47,18 @@ li{
     }
 
 .HomeSubscribe{
-    background-image: url('./Header.jpg');
+    /* background-image: url('./Header.jpg');
     background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
     border-radius: 20px;
-    background-color: rgb(236, 236, 236);
+    background-color: #48118E;
+    color: white;
 }
 
+.HomeNavbar{
+    background-color: none;
+}
 
 @media screen and (max-width: 992px) {
     .HomeHeaderH1{
